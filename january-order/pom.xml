@@ -115,13 +115,16 @@
 			<artifactId>smile-common</artifactId>
 			<groupId>wang.smile.common</groupId>
 			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/libs/smile-common-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 
 		<dependency>
 			<artifactId>code-generator</artifactId>
 			<groupId>wang.smile.common</groupId>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>test</scope>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/libs/code-generator-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 
 	</dependencies>
